@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>GeekBrains</title>
+<script type="text/javascript">
+ // задание 1 
+        function min(a, b) {
+          if (a < b)
+            return a;
+          else return b;
+        }
+        console.log(MinStart(0, 10));
+        console.log(MinStart(0, -10));
+		
+		
+ // задание 2 часть 1
+        function countBs(str) { 
+          var counter = 0;      
+          for( var i = 0; i <= str.length; i++){ 
+            if (str.charAt(i) == 'b'){ 
+              counter += 1;            
+            }
+          }
+          return(counter);              
+        }
+// задание 2 часть 2
+		
+		
+        function countChar(str, chart) {  
+          var counter = 0;             
+          for (var i = 0; i <= str.length; i++) { 
+            if (str.charAt(i) == chart){ 
+                counter += 1;          
+            }
+          }
+          return(counter);              
+        }
+        console.log(countBs('считаем буквы  b')); 
+        console.log(countChar('считаем указанную букву aaaaaa aaaa' 'a'));  
+
+</script>
+</head>
+<body>
+</body>
+</html>
